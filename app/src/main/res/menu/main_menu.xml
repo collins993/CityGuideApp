@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/nav_search"
+            android:title="@string/search_text"
+            android:icon="@drawable/ic_baseline_search_24"/>
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="@string/all_categories"
+            android:icon="@drawable/ic_baseline_folder_24"/>
+        <item
+            android:id="@+id/nav_all_missing_places"
+            android:title="@string/new_places"
+            android:icon="@drawable/ic_baseline_location_on_24"/>
+
+
+
+    </group>
+
+    <item android:title="@string/profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="@string/log_in"
+                    android:icon="@drawable/ic_baseline_login_24"/>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="@string/profile"
+                    android:icon="@drawable/ic_baseline_person_24"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/log_out"
+                    android:icon="@drawable/ic_baseline_login_24"/>
+
+            </group>
+
+
+        </menu>
+    </item>
+
+    <item android:title="@string/categories">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_restaurants"
+                    android:title="@string/restaurants"
+                    android:icon="@drawable/ic_baseline_restaurant_menu_24"/>
+                <item
+                    android:id="@+id/nav_banks"
+                    android:title="@string/bank"
+                    android:icon="@drawable/ic_baseline_account_balance_24"/>
+                <item
+                    android:id="@+id/nav_hotels"
+                    android:title="@string/hotels"
+                    android:icon="@drawable/ic_baseline_hotel_24"/>
+                <item
+                    android:id="@+id/nav_education"
+                    android:title="@string/education"
+                    android:icon="@drawable/ic_baseline_school_24"/>
+                <item
+                    android:id="@+id/nav_shop"
+                    android:title="@string/shops"
+                    android:icon="@drawable/ic_baseline_store_24"/>
+
+            </group>
+
+
+        </menu>
+    </item>
+
+    <item android:title="@string/share">
+        <menu>
+
+            <group>
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="@string/share"
+                    android:icon="@drawable/ic_baseline_share_24"/>
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/ic_baseline_star_rate_24"/>
+
+
+            </group>
+
+
+        </menu>
+    </item>
+
+
+
+</menu>
